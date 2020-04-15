@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <title>Test</title>
+  <script src="../dist/ne14_demo.umd.min.js"></script>
+  <script>(function () {
+
+    // Define an element right away!
+    var tooltip = document.createElement('ne14-demo-tooltip');
+    tooltip.textContent = 'define me';
+    tooltip.reveal = 'text that contains a definition';
+
+    window.addEventListener('load', function() {
+
+      // Manupulate as with any other
+      document.body.appendChild(tooltip);
+    });
+
+  })();</script>
+</head>
+<body>
+  <h1>Lorem Ipsum</h1>
+  <!-- Even in the markup! -->
+  <p>Lorem ipsum dolor sit amet, <ne14-demo-tooltip reveal="what a funny word!" corner="2">tincidunt</ne14-demo-tooltip> adipiscing elit. Integer et augue est.</p> 
+</body>
+</html>
