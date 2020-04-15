@@ -1,7 +1,7 @@
 # @ne1410s/demo
 ## A custom element for demonstration purposes and to serve as a project template.
 ```html
-<ne14-demo-tooltip>
+<ne14-demo-tooltip reveal="Hey!">
   <p>Hello world</p>
 </ne14-demo-tooltip>
 ```
