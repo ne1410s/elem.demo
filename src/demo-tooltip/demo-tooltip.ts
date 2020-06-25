@@ -4,7 +4,6 @@ import markupUrl from './demo-tooltip.html';
 import stylesUrl from './demo-tooltip.css';
 
 export class DemoTooltip extends CustomElementBase {
-
   public static readonly observedAttributes = ['corner', 'reveal'];
 
   constructor() {

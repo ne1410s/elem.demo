@@ -13,14 +13,14 @@ export default {
     file: pkg.browser,
     format: 'umd',
     globals: {
-      '@ne1410s/cust-elems': 'ne_cust_elems'
-    }
+      '@ne1410s/cust-elems': 'ne_cust_elems',
+    },
   },
   plugins: [
     resolve(), // find external modules
     commonjs(), // convert external modules to ES modules
     typescript(),
     json(),
-    url({ include: ['src/**/*.css', 'src/**/*.html'] })
-  ]
+    url({ include: ['src/**/*.css', 'src/**/*.html'] }),
+  ],
 };

@@ -6,9 +6,7 @@
     "declaration": true,
     "noImplicitAny": true,
     "target": "es6",
-    "outDir": "dist",
+    "outDir": "dist"
   },
-  "include": [
-    "src/**/*.ts"
-  ]
+  "include": ["src/**/*.ts"]
 }
