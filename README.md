@@ -43,3 +43,26 @@ tooltip.addEventListener('...', () => {
 
 - `set` **corner** (number): Sets the attribute with the corresponding value
 - `set` **reveal** (string): Sets the attribute with the corresponding value
+
+### CSS Variables
+
+Some degree of custom styling can be provided, by way of css variables:
+
+```css
+ne14-demo-tooltip {
+  --src-border: 1px solid green;
+  --reveal-trg-bg: rebeccapurple;
+}
+```
+
+- **`--src-border-radius`** _Source item border radius. Defaults to: `3px`_
+- **`--src-border`** _Source item border. Defaults to: `1px solid black`_
+- **`--src-bg`** _Source item background. Defaults to: `inherit`_
+- **`--src-fg`** _Source item foreground. Defaults to: `inherit`_
+- **`--trg-border-radius`** _Target item border radius. Defaults to: `3px`_
+- **`--reveal-src-border`** _Source item border (in reveal mode). Defaults to: `--src-border`_
+- **`--reveal-src-bg`** _Source item background (in reveal mode). Defaults to: `inherit`_
+- **`--reveal-src-fg`** _Source item foreground (in reveal mode). Defaults to: `inherit`_
+- **`--reveal-trg-border`** _Target item border (in reveal mode). Defaults to: `1px solid black`_
+- **`--reveal-trg-bg`** _Target item background (in reveal mode). Defaults to: `white`_
+- **`--reveal-trg-fg`** _Target item foreground (in reveal mode). Defaults to: `inherit`_

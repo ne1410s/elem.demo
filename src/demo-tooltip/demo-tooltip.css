@@ -1,7 +1,7 @@
 .root {
   position: relative;
   border: var(--src-border, 1px solid black);
-  border-radius: var(--border-radius, 3px);
+  border-radius: var(--src-border-radius, 3px);
   color: var(--src-fg, inherit);
   background: var(--src-bg, inherit);
   padding: 0;
@@ -41,7 +41,7 @@
   position: absolute;
   pointer-events: none;
   border: var(--reveal-trg-border, 1px solid black);
-  border-radius: var(--reveal-border-radius, 3px);
+  border-radius: var(--trg-border-radius, 3px);
   color: var(--reveal-trg-fg, inherit);
   background: var(--reveal-trg-bg, white);
   white-space: nowrap;
