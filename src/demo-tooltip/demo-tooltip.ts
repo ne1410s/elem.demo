@@ -1,4 +1,4 @@
-import { CustomElementBase } from '@ne1410s/cust-elems';
+import { CustomElementBase, decode, reduceCss, reduceHtml } from '@ne1410s/cust-elems';
 
 import markupUrl from './demo-tooltip.html';
 import stylesUrl from './demo-tooltip.css';
@@ -6,8 +6,11 @@ import stylesUrl from './demo-tooltip.css';
 export class DemoTooltip extends CustomElementBase {
   public static readonly observedAttributes = ['corner', 'reveal'];
 
+  private static readonly Css = reduceCss(decode(stylesUrl));
+  private static readonly Html = reduceHtml(decode(markupUrl));
+
   constructor() {
-    super(stylesUrl, markupUrl);
+    super(DemoTooltip.Css, DemoTooltip.Html);
   }
 
   set reveal(value: string) {
