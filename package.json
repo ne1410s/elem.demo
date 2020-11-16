@@ -38,15 +38,15 @@
   },
   "homepage": "https://github.com/ne1410s/elem.demo#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/plugin-url": "^5.0.1",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.1",
-    "rollup": "^2.31.0",
-    "rollup-plugin-typescript2": "^0.27.3",
-    "typescript": "^4.0.3"
+    "rollup": "^2.33.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.0.5"
   },
   "dependencies": {
     "@ne1410s/cust-elems": "file:../core.elem/ne1410s-cust-elems-0.1.5.tgz"
