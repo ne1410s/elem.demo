@@ -1,6 +1,6 @@
 {
   "name": "@ne1410s/demo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A custom element for demonstration purposes and to serve as a project template.",
   "main": "dist/ne14_demo.cjs.min.js",
   "module": "dist/ne14_demo.esm.min.js",
