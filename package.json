@@ -49,6 +49,6 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@ne1410s/cust-elems": "^0.2.10"
+    "@ne1410s/cust-elems": "^0.2.11"
   }
 }
